@@ -1,0 +1,48 @@
+<template>
+  <div class="index">
+    <div class="left">    
+        <Category></Category>
+    </div>
+    <div class="right">
+        <ChatContent></ChatContent>   
+    </div>
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+// import HelloWorld from '@/components/HelloWorld.vue'
+import Category from "@/components/Category.vue";
+import ChatContent from "@/components/ChatContent.vue";
+
+export default {
+  name: "index",
+  components: {
+    // HelloWorld,
+    Category,
+    ChatContent,
+  },
+};
+</script>
+
+<style>
+*{
+    padding: 0;
+    margin: 0;
+}
+.index{
+    width: 1300px;
+}
+.left{
+    width: 15%;
+    background-color: grey;
+    float: left;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.right{
+    width: 80%;
+    float: left;
+    background-color: grey;
+}
+</style>

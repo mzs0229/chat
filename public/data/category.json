@@ -1,0 +1,39 @@
+{
+    "code":0,
+    "category":
+    [
+        {
+            "ID":"01",
+            "name":"Account"
+        },
+        {
+            "ID":"02",
+            "name":"Trading"
+        },
+        {
+            "ID":"03",
+            "name":"ByFi"
+        },
+        {
+            "ID":"04",
+            "name":"Common Phrase"
+        },
+        {
+            "ID":"05",
+            "name":"Mail template"
+        },
+        {
+            "ID":"06",
+            "name":"Attention"
+        },
+        {
+            "ID":"07",
+            "name":"Other"
+        },
+        {
+            "ID":"08",
+            "name":"mzs0229"
+        }
+    ],
+    "message":"OK"  
+}

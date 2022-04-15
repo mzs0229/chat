@@ -1,4 +1,4 @@
-# mzs
+# chat
 
 ## Project setup
 ```

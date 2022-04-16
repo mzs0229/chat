@@ -3,6 +3,10 @@
     "category":
     [
         {
+            "ID":"04",
+            "name":"Common Phrase"
+        },
+        {
             "ID":"01",
             "name":"Account"
         },
@@ -15,25 +19,22 @@
             "name":"ByFi"
         },
         {
-            "ID":"04",
-            "name":"Common Phrase"
-        },
-        {
             "ID":"05",
-            "name":"Mail template"
+            "name":"Deposit"
         },
         {
             "ID":"06",
-            "name":"Attention"
+            "name":"App"
         },
         {
             "ID":"07",
-            "name":"Other"
+            "name":"Attention"
         },
         {
             "ID":"08",
-            "name":"mzs0229"
+            "name":"Mail template"
         }
+       
     ],
     "message":"OK"  
 }

@@ -34,14 +34,15 @@ export default {
     width: 1300px;
 }
 .left{
-    width: 15%;
+  margin-top: 100px;
+    width: 10%;
     background-color: grey;
     float: left;
     cursor: pointer;
     margin-right: 20px;
 }
 .right{
-    width: 80%;
+    width: 70%;
     float: left;
     background-color: grey;
 }

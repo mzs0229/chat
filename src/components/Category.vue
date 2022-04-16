@@ -1,7 +1,10 @@
 <template>
   <div class="category">
       <ul>
-        <li v-for="(item, index) in categoryList" :key="index" @click="sendMessage(item)" :id="index+1" >
+        <li v-for="(item, index) in categoryList" :key="index" 
+        @click="sendMessage(item)" 
+        :id="index+1"
+        >
          {{ item.name }}
         </li>
       </ul>
@@ -38,6 +41,9 @@ export default {
     background-color: white;
     margin-bottom: 2px;
     list-style: none;
+}
+.active{
+  color:red;
 }
 
 </style>

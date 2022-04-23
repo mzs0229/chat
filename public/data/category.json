@@ -32,7 +32,11 @@
         },
         {
             "ID":"08",
-            "name":"Mail template"
+            "name":"Mail Template"
+        },
+        {
+            "ID":"08",
+            "name":"Lark Inquiry"
         }
        
     ],

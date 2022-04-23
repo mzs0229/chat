@@ -1,0 +1,27 @@
+{
+    "category":"larkinquiry",
+    "content":
+    [
+        {
+            "desc":"KYC failed",
+            "detail":"UID:     XXXXXXX\nSF:     XXXXXXXX\ninquiry:user KYC lv1 failed, please help to check and assist.thank you."
+        },
+        {
+            "desc":"WithdrawBanned",
+            "detail":"UID:     XXXXXXX\nSF:     XXXXXXXX\ninquiry:user 's account is withdrawbanned, please help to check and assist, thank you."
+        },
+        {
+            "desc":"VIP",
+            "detail":"Please take note the following correct format of posting.\nNot the SF ticket number but the URL + whether trader is a VIP or not\nUID:\nSF Ticket URL:\nCampaign URL (if any):\nInquiry:\nVIP: Y/N\nTag respective RM based on language:\nEN - Hilda\nJP - Yuko\nKR - Ken\nRU - Maksim\nCN - Kevin (Yu)\n"
+        },
+        {
+            "ID":"02",
+            "detail":"Account222222"
+        },
+        {
+            "ID":"03",
+            "detail":"Acount3333333"
+        }
+      
+    ]
+}

@@ -3,20 +3,10 @@
     "content":
     [
         {
-            "ID":"01",
-            "desc":"",
-            "detail":"Trading111111"
-        },
-        {
-            "ID":"02",
-            "desc":"",
-            "detail":"Trading222222"
-        },
-        {
-            "ID":"03",
-            "desc":"",
-            "detail":"Trading3333333"
+           
+            "desc":"PC資産振替",
+            "detail":"どうぞこちらのリンクをアクセスしていただき、\nhttps://www.bybit.com/user/assets/home\n左側の「振り替える」ボタンをクリックし、ポップアップしてきた画面に振込元、振込先アカウントと通貨を選択して、数量を埋めてから、実行してください。"
         }
-      
+     
     ]
 }

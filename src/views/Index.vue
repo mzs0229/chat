@@ -44,6 +44,6 @@ export default {
 .right{
     width: 70%;
     float: left;
-    background-color: grey;
+
 }
 </style>

@@ -64,6 +64,8 @@ export default {
         url = "./data/mail.json";
       }else if (res == "Lark Inquiry") {
         url = "./data/larkinquiry.json";
+      }else if (res == "Other") {
+        url = "./data/other.json";
       }
   
       this.$http.get(url).then((res) => {
@@ -100,40 +102,17 @@ export default {
 </script>
 
 <style scoped>
-/* .chatcontent li {
-  list-style: none;
-  text-align: left;
-  margin-bottom: 3px;
-  background-color: white;
 
-  word-wrap: break-word;
-  font-size: 10px;
-  padding: 10px;
-  width: 900px;
-} */
 
-#content {
-  width: 750px;
-  padding: 40px;
-  margin: 0 auto;
-  background-color: #fff;
-  border-left: 30px solid #1d81b6;
-  border-right: 1px solid #ddd;
-  box-shadow: 0px 0px 16px #aaa;
-}
-#table1 {
-  font: bold;
-  text-align: left;
-  border: 1px;
-}
-#table1 thead th {
+
+th {
   text-align: center;
   padding: 10px;
-  border-bottom: 3px solid #9ed929;
+  border-bottom: 1px solid #9ed929;
   text-shadow: 1px 1px 1px #568f23;
-  /* color: #fff; */
   background-color: #9dd929;
   border-radius: 5px 5px 0px 0px;
+  font-size: 16px;
 }
 #table1 thead th:empty {
   background-color: transparent;
@@ -141,25 +120,24 @@ export default {
 }
 
 #table1 tbody td {
-  padding: 10px;
-  border: 2px solid #e7efe0;
-  text-shadow: 1px 1px 1px #fff;
+  padding: 5px 5px;
   background-color: #def3ca;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 td.desc {
   font: bold;
-  width: 100px;
+  width: 150px;
+  font-size: 14px;
   text-align: center;
 }
 td.detail {
-  width: 700px;
-  font-size: 15px;
+  font-size: 12px;
+  text-align: left;
 }
 
 button {
-  width: 80px;
+  width: 60px;
   height: 25px;
 }
 

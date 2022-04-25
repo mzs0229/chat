@@ -26,15 +26,12 @@ export default {
 </script>
 
 <style>
-*{
-    padding: 0;
-    margin: 0;
-}
+
 .index{
     width: 1300px;
 }
 .left{
-  margin-top: 100px;
+    margin-top: 100px;
     width: 10%;
     background-color: grey;
     float: left;
@@ -42,8 +39,7 @@ export default {
     margin-right: 20px;
 }
 .right{
-    width: 70%;
+    width: 75%;
     float: left;
-
 }
 </style>

@@ -3,40 +3,34 @@
     "category":
     [
         {
-            "ID":"04",
             "name":"Common Phrase"
         },
         {
-            "ID":"01",
             "name":"Account"
         },
         {
-            "ID":"02",
             "name":"Trading"
         },
         {
-            "ID":"03",
             "name":"ByFi"
         },
         {
-            "ID":"05",
             "name":"Deposit"
         },
         {
-            "ID":"06",
             "name":"App"
         },
+      
         {
-            "ID":"07",
-            "name":"Attention"
-        },
-        {
-            "ID":"08",
             "name":"Mail Template"
         },
         {
-            "ID":"08",
+
             "name":"Lark Inquiry"
+        },
+        {
+            "ID":"07",
+            "name":"Other"
         }
        
     ],

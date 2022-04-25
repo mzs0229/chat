@@ -1,7 +1,7 @@
 <template>
   <div class="category">
       <ul>
-        <li v-for="(item, index) in categoryList" :key="index" 
+        <li v-for="(item, index) in categoryList" :key="index" class="active" 
         @click="sendMessage(item)" 
         :id="index+1"
         >
@@ -29,6 +29,7 @@ export default {
       sendMessage:function(item){
          let categoryName = item.name
          Msg.$emit("val",categoryName)
+         console.log("index shi",item.ID)
       }
 
   }
@@ -42,8 +43,10 @@ export default {
     margin-bottom: 2px;
     list-style: none;
 }
-.active{
-  color:red;
+
+li:hover{
+  background-color: #9ed929;
 }
+
 
 </style>

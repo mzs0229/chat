@@ -39,7 +39,7 @@ export default {
     margin-right: 20px;
 }
 .right{
-    width: 75%;
+    width: 70%;
     float: left;
 }
 </style>

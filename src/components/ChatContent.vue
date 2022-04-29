@@ -48,8 +48,8 @@ export default {
     Msg.$on("val", function (res) {
       _this.content = "";
       let url = "";
-      if (res == "Account") {
-        url = "./data/account.json";
+      if (res == "Withdraw") {
+        url = "./data/withdraw.json";
       } else if (res == "Trading") {
         url = "./data/trading.json";
       } else if (res == "Common Phrase") {
@@ -81,9 +81,10 @@ export default {
       let clipboard = new this.clipboard("#express");
       console.log("clipboard is", clipboard);
       let that = this;
+    
       clipboard.on("success", function () {
         that.$message({
-          message: clipboard + "Copy Done",
+          message: "Copy Done!!",
           duration: 1500,
           center: true,
         });

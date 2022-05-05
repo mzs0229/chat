@@ -6,19 +6,19 @@
             "name":"Common Phrase"
         },
         {
+            "name":"Deposit"
+        },
+        {
             "name":"Withdraw"
         },
         {
             "name":"Trading"
         },
         {
-            "name":"ByFi"
-        },
-        {
-            "name":"Deposit"
-        },
-        {
             "name":"App"
+        },
+        {
+            "name":"ByFi"
         },
         {
             "name":"Mail Template"

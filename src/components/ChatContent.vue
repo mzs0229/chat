@@ -52,6 +52,8 @@ export default {
         url = "./data/withdraw.json";
       } else if (res == "Trading") {
         url = "./data/trading.json";
+      } else if (res == "Account") {
+        url = "./data/account.json";
       } else if (res == "Common Phrase") {
         url = "./data/common.json";
       } else if (res == "Deposit") {

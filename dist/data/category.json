@@ -1,0 +1,38 @@
+{
+    "code":0,
+    "category":
+    [
+        {
+            "name":"Common Phrase"
+        },
+        {
+            "name":"Account"
+        },
+        {
+            "name":"Deposit"
+        },
+        {
+            "name":"Withdraw"
+        },
+        {
+            "name":"Trading"
+        },
+        {
+            "name":"App"
+        },
+        {
+            "name":"ByFi"
+        },
+        {
+            "name":"Mail Template"
+        },
+        {
+            "name":"Lark Inquiry"
+        },
+        {
+            "name":"Other"
+        }
+       
+    ],
+    "message":"OK"  
+}
